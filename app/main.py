@@ -1,11 +1,13 @@
 from fastapi import Depends, FastAPI
 
 from app.auth import get_current_user
+from app.greeting import router as greeting_router
 from app.interviews import router as interviews_router
 from app.responses import register_error_handlers, success
 
 app = FastAPI(title="Intervia API", version="1.0.0")
 register_error_handlers(app)
+app.include_router(greeting_router)
 app.include_router(interviews_router)
 
 
