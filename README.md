@@ -1,4 +1,4 @@
-# intervia-api
+
 # Intervia API (Assignment 2 prototype)
 
 Intervia is an AI-powered interview preparation platform for students, job seekers, career centers and HR professionals. This repository contains the first backend prototype: a REST API built with FastAPI and **mocked in-memory data** (no real database yet).
@@ -72,7 +72,7 @@ Send as: `Authorization: Bearer user-a-token`
 | Name | Student ID | Responsibilities |
 |---|---|---|
 | Gular Sultanli | 20418 | Project setup, mock data, authentication, ownership checks, interviews CRUD, validation, response envelope, greeting page, API docs |
-| Nazrin Baghirova | 20025 | Windows compatibility fix, environment testing |
+| Nazrin Baghirova | 20025 | Windows compatibility fix, environment testing, test report(docs/testing.md) |
 
 See [CONTRIBUTORS.md](CONTRIBUTORS.md).
 
@@ -81,5 +81,6 @@ See [CONTRIBUTORS.md](CONTRIBUTORS.md).
 Output of `git shortlog -sn --all`:
 
 ```text
-SHORTLOG_PLACEHOLDER
+    28  Gular Sultanli
+    4  Nazrin Baghirova
 ```
